@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\maze_2d.dir/objects.a
+C:\msys64\ucrt64\bin\ar.exe qc CMakeFiles\maze_2d.dir/objects.a @CMakeFiles\maze_2d.dir\objects1.rsp
+C:\msys64\ucrt64\bin\g++.exe  -Wall -Wno-long-long -pedantic -O3 -DNDEBUG -Wl,--whole-archive CMakeFiles\maze_2d.dir/objects.a -Wl,--no-whole-archive -o maze_2d.exe -Wl,--out-implib,libmaze_2d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\maze_2d.dir\linkLibs.rsp

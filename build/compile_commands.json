@@ -1,0 +1,20 @@
+[
+{
+  "directory": "D:/Dev/vscode/Projects/maze_2d/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/maze_2d.dir/includes_CXX.rsp  -Wall -Wno-long-long -pedantic -O3 -DNDEBUG -std=gnu++23 -o CMakeFiles\\maze_2d.dir\\src\\main.cpp.obj -c D:\\Dev\\vscode\\Projects\\maze_2d\\src\\main.cpp",
+  "file": "D:/Dev/vscode/Projects/maze_2d/src/main.cpp",
+  "output": "CMakeFiles/maze_2d.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/Dev/vscode/Projects/maze_2d/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/maze_2d.dir/includes_CXX.rsp  -Wall -Wno-long-long -pedantic -O3 -DNDEBUG -std=gnu++23 -o CMakeFiles\\maze_2d.dir\\src\\path_finding.cpp.obj -c D:\\Dev\\vscode\\Projects\\maze_2d\\src\\path_finding.cpp",
+  "file": "D:/Dev/vscode/Projects/maze_2d/src/path_finding.cpp",
+  "output": "CMakeFiles/maze_2d.dir/src/path_finding.cpp.obj"
+},
+{
+  "directory": "D:/Dev/vscode/Projects/maze_2d/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/maze_2d.dir/includes_CXX.rsp  -Wall -Wno-long-long -pedantic -O3 -DNDEBUG -std=gnu++23 -o CMakeFiles\\maze_2d.dir\\src\\src.cpp.obj -c D:\\Dev\\vscode\\Projects\\maze_2d\\src\\src.cpp",
+  "file": "D:/Dev/vscode/Projects/maze_2d/src/src.cpp",
+  "output": "CMakeFiles/maze_2d.dir/src/src.cpp.obj"
+}
+]
