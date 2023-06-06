@@ -7,6 +7,8 @@
 #include <path_finding.h>
 
 /*
+    approached the movement of enemy is wrong,
+    fix that first, before I continue;
     implement a something like a pac-man
 */
 
@@ -44,7 +46,7 @@ int main()
             game.MovePlayer(player, foo);
         }
 
-        Monster::Move(player);
+        Monster::MovingMonster(player);
         game.DisplayFrameConsole(player);
 
         // Sleep(0) allow other threads to run

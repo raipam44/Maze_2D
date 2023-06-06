@@ -8,7 +8,7 @@
 #include <random>
 #include <path_finding.h>
 
-int Monster::MonsterRow = 3;
+int Monster::MonsterRow = 6;
 int Monster::MonsterColumn = 1;
 bool MazeGame::IsNotGameOver = true;
 
@@ -269,7 +269,34 @@ void Monster::Move(Player &player)
     int tmpRow = MonsterRow;
     int tmpColumn = MonsterColumn;
 
-    int MonsterVisibility = 3;
+    auto IsPlayerFound = [&]()
+    {
+        if (tmpRow == player.playerRow && tmpColumn == player.playerCol)
+            return true;
 
-    
+        return false;
+    };
+
+    int MonsterVisibility = 4;
+
+    for (int i = 0; i < MonsterVisibility; ++i)
+    {
+        if (tmpRow - 1 >= 0 && MazeGame::maze[tmpRow - 1][tmpColumn] != MazeGame::WALL)
+        {
+            if (IsPlayerFound())
+            {
+                --MonsterRow;
+                break;
+            }
+        }
+
+        --tmpRow;
+
+                // if (tmpColumn - 1 < MazeGame::MAX_COLS && MazeGame::maze[tmpRow][tmpColumn - 1] != MazeGame::WALL)
+        // {
+        // }
+        // if (MtmpColumn + 1 < MazeGame::MAX_COLS && MazeGame::maze[tmpRow][tmpColumn + 1] != MazeGame::WALL)
+        // {
+        // }
+    }
 }
